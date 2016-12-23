@@ -10,12 +10,26 @@ namespace CodedUITestProject2
 {
     public class CustomUIItemWindow : WinWindow
     {
+        public String instance;
+
+        public String Instance
+        {
+            get
+            {
+                return instance;
+            }
+            set
+            {
+                instance = value;
+            }
+        }
+
         public CustomUIItemWindow(UITestControl searchLimitContainer) : 
                 base(searchLimitContainer)
         {
             #region Search Criteria
             this.SearchProperties[WinWindow.PropertyNames.ClassName] = "TxpButton";
-            this.SearchProperties[WinWindow.PropertyNames.Instance] = "12";
+            this.SearchProperties[WinWindow.PropertyNames.Instance] = instance;
             this.WindowTitles.Add("Calculator");
             #endregion
         }
