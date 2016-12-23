@@ -26,7 +26,8 @@ namespace CodedUITestProject2
         public void CodedUITestMethod1()
         {
 
-            this.UIMap.AdditionOperation();
+            //this.UIMap.AdditionOperation();
+            CustomCaller.ButtonClick();
             // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
         }
 
