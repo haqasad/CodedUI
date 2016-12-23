@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CodedUITestProject2
 {
-    class CustomUIItemWindow : WinWindow
+    public class CustomUIItemWindow : WinWindow
     {
         public CustomUIItemWindow(UITestControl searchLimitContainer) : 
                 base(searchLimitContainer)
