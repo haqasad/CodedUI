@@ -10,7 +10,7 @@ using Microsoft.VisualStudio.TestTools.UITest.Extension;
 using Keyboard = Microsoft.VisualStudio.TestTools.UITesting.Keyboard;
 
 
-namespace CodedUITestProject1
+namespace CodedUITestProject2
 {
     /// <summary>
     /// Summary description for CodedUITest1
@@ -27,8 +27,6 @@ namespace CodedUITestProject1
         {
 
             this.UIMap.AdditionOperation();
-            //this.UIMap.AssertAddition();
-
             // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
         }
 
